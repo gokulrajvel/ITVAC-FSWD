@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cls</title>
+</head>
+<body>
+
+    <h1>Travel reservetion form</h1>
+    <form>
+    <p><b>* denotes mandatory</b></p>
+<div>
+    <label for="name">name</label>
+    <input type="text" name="name" placeholder="Firstname LastName">
+</div>
+<div>
+    <label for="email">email</label>
+    <input type="email" name="email" placeholder="Email">
+</div>
+<div>
+    <label for="package">Select tour Packages</label>
+    <select name="package" id="package">
+        <option value="package">Goa</option>
+        <option value="package">tamilnadu</option>
+    </select>
+</div>
+<div>
+    <label for="date">Arrvial Date*</label>
+    <input type="date" name="date"  placeholder="Date">
+</div>
+<div>
+    <label for="person">Number of persons*</label>
+    <input type="number" name="person">
+</div>
+<div>
+    <label for="place">What Would you want to avail?*</label><br>
+    <input type="checkbox" name="place" value="name">Boarding<br>
+    <input type="checkbox" name="place" value="place">Fooding<br>
+    <input type="checkbox" name="place" value="place">Sight seeing<br>
+</div>
+<div>
+    <label for="coupon">Discount coupon code</label>
+    <input type="text" name="coupon" placeholder="JJOCX TYPE">
+</div>
+<div>
+    <label for="terms">Terms and condition</label>
+    <input type="radio" name="terms">I agree
+    <input type="radio" name="terms">I disagree
+</div>
+<diV>
+    <button type="submit">Complete reservation</button>
+</diV>
+</form>
+</body>
+</html>
